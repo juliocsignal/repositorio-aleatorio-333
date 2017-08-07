@@ -3,6 +3,7 @@
 
 import tkinter
 
+#opa mudei
 
 class minhaApp_tk(tkinter.Tk):
     def __init__ (self,parent):

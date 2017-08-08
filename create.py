@@ -2,10 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import tkinter
-#import matplotlib.pyplot as plt
 
-
-#e = []
 
 class minhaApp_tk(tkinter.Tk):
     def __init__(self, parent):

@@ -1,0 +1,219 @@
+html, body { /*configuracoes basicas do corpo da pagina*/
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color: rgba(85,148,150,1);
+}
+
+
+
+.container
+{
+	text-align: center; /*Alinha o texto da div de classe 'container'*/
+	display: block; /*Configura a div como um bloco*/
+	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita (centralizacao) */
+	margin-top: 5%; /*Topo da div a 150px do topo da pagina*/
+}
+
+
+h1 { /*Configuracoes de titulo h1*/
+	font-size: 30px; /*Fonte*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /*Tipo de fonte*/
+	text-align: center; /*Alinhamento*/
+	color:white;
+
+}
+
+
+
+ul { /*Configuracoes padrao para todas as listas a serem utilizadas*/
+	/*margin: 0; Zera as margens da lista*/
+	padding: 0;
+	list-style: none; /*Zera qualquer predefinicao de estilo da lista*/
+}
+
+div#logo{ /*Divisao que corresponde a logo posicionada no topo da pagina*/
+	/*margin: 0 auto; Margens automaticas de orientacao esquerda-direita*/
+	margin-top: 2%; /*Margem do topo da divisao*/
+	display: block; /**/
+	position: relative;
+	background-color: red;
+	
+	
+}
+
+div#menu
+{
+	position: relative;
+	display: block;
+	background-color: black;
+	margin: 0 auto;
+	margin-bottom: 1%;
+	
+}
+
+ul#nav
+{
+	display: table;
+	margin: 0 auto;
+	width: 100%;
+}
+
+img#foto{
+	position:absolute;
+	margin-top: 10px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	
+	
+}
+
+input::placeholder, input::-webkit-input-placeholder { /*Cores do placeholder mudam quando cursor está em cima deles*/
+	color: rgba(95,158,160,1);
+}
+
+ul#form li { /*Configuracoes da lista 'form' que corresponde ao formulario de cadastro*/
+	/*position: relative;
+	display: inline-block;*/
+	}
+
+ul#nav li
+{
+	position: relative; /*Torna a posicao dos itens da lista 'nav', que
+											corresponde ao menu, relativos*/
+	display: inline-block; /*Define a visualizacao do menu como blocos horizontais*/
+	padding: 2%;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 15px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: #2c8d99;
+	/*margin-top: 10%;
+	margin-bottom: 10%;
+	display: block;*/
+	
+}
+
+/*li:hover ul#drop
+{
+	display: block;
+}*/
+
+
+ul li a:hover{
+	background: rgba(255,255,255,0.8); }
+
+/**/
+
+input{
+	display: inline-block; /*Display configurado como block*/
+	padding: 15px; /*Padding de todos*/
+	padding-left: 50px;
+	padding-right: 50px; /*Padding da esquerda*/
+	margin-bottom: 20px; /*Margem de todos*/
+	border-radius: 800px; /*Raio da borda*/
+	border:0;
+/*  background-color: rgba(95,158,160,1);
+*/
+ }
+
+input[type=checkbox]{
+	display: inline-block; /*Configurando a checkbox como 'inline-block'*/
+    color:white; /*Cor da letra*/
+   }
+
+ul {
+	list-style:none; /*Zerando estilos pre-definidos*/
+	padding:0; /*Zerando espacamento interno da lista*/
+	margin:0;
+}
+
+ul li {
+	padding:0;
+	margin:0;
+	color:white;
+}
+
+h1 {
+   margin:0; /*Zerando margem e padding pre-definidos*/
+   padding:0;
+   margin-bottom: 40px; /*Margem do fundo do h1*/
+   font-size:35px; /*Tamanho da fonte*/
+/*margin-left:3%;*/
+}
+
+input[type=submit]{ /*Entrada do tipo Botao*/
+	background-color: rgb(65,230,170); /*Cor do botao*/
+    color:white; /*Cor da letra*/
+    text-align: center; /*Alinhando texto do botao*/
+    margin-top:10px; /*Configurando margem de topo*/
+    text-shadow:0.6px 0.6px 0.7px #2E8B57	; /*Configurando sombra do botao*/
+    font-size:19px; /*Tamanho da fonte*/
+
+}
+
+div#corpotexto
+{
+	display: block
+	position: relative;
+	
+}
+
+article#corpo
+{
+	background-color: #fff; /*Cor de fundo do artigo*/
+	width: 90%; /*Largura do artigo configurada como 60% do tamanho da pagina*/
+	display: block;
+	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita*/
+	border-radius: 18px; /*Raio da borda do artigo*/
+	padding: 1.5%; /*Espacamento interno do artigo*/
+}
+
+article#corpo h1
+{
+	padding: 0.7%;
+	text-align: left;
+	background-color: rgba(44,141,153,0.6);
+	color: #000;
+	border-radius: 5px;
+	
+}
+
+article#corpo p
+{
+	text-align: justify;
+	text-indent: 1.7em;
+}
+
+footer
+{
+	background-color: #fff;	
+	width: 65%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	position: relative;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+
+
+footer p 
+{
+	
+	margin-top: -15px; 	
+	margin-bottom: -15px;
+	text-align: center;
+	padding: 1.1%;
+	
+}
